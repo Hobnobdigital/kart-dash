@@ -31,8 +31,7 @@ export default class MenuScene extends Phaser.Scene{
         });
 
         // Footer instructions
-        this.add.text(width/2, height*0.9, 'Tap / Click a kart to start
-Press P to pause in‑game', {
+        this.add.text(width/2, height*0.9, 'Tap / Click a kart to start\nPress P to pause in‑game', {
             fontSize: 20, color:'#aaaaaa', align:'center'
         }).setOrigin(0.5);
     }
